@@ -1,0 +1,92 @@
+/*
+ * section-highlight
+ * https://github.com/iclanzan/section-highlight
+ *
+ * Copyright (c) 2013 Sorin Iclanzan
+ * Licensed under the MIT license.
+ */
+
+pre code,
+pre .subst {
+  color: #333;
+}
+
+pre .string,
+pre .char,
+pre .title,
+pre .constant,
+pre .parent,
+pre .tag,
+pre .value,
+pre .preprocessor,
+pre .aggregate,
+pre .template_tag,
+pre .addition,
+pre .flow,
+pre .stream,
+pre .cbracket,
+pre .command,
+pre .special {
+  color: #690;
+}
+
+pre .comment,
+pre .annotation,
+pre .template_comment,
+pre .header,
+pre .chunk,
+pre .blockquote {
+  color: #888;
+}
+
+pre .number,
+pre .date,
+pre .regexp,
+pre .literal,
+pre .hexcolor,
+pre .symbol,
+pre .change,
+pre .class,
+pre .bullet,
+pre .params,
+pre .link_url {
+  color: #F80;
+}
+
+pre .variable,
+pre .function,
+pre .label,
+pre .javadoc,
+pre .decorator,
+pre .argument,
+pre .localvars,
+pre .array,
+pre .attr_selector,
+pre .important,
+pre .pseudo,
+pre .pi,
+pre .doctype,
+pre .deletion,
+pre .envvar,
+pre .shebang,
+pre .sqbracket,
+pre .built_in,
+pre .formula,
+pre .reserved,
+pre .prompt,
+pre .link_label,
+pre .attribute,
+pre .property {
+  color: #09C;
+}
+
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .lasso .markup,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .cdata {
+  opacity: 0.5;
+}
